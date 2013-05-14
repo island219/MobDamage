@@ -38,7 +38,8 @@ public class MobDamage extends JavaPlugin {
         setupPermissions();
         this.logger.info("MobDamage has been enabled");
     }
-
+    
+    // Setup the permissions so not everybody can use it.
     private void setupPermissions() {
         Plugin PEX = getServer().getPluginManager().getPlugin("PermissionsEx");
         Plugin PermissionsBukkit = getServer().getPluginManager().getPlugin("PermissionsBukkit");
